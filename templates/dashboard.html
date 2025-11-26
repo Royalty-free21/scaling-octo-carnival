@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>6G Healthcare IoT Dashboard</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header><h1>6G Healthcare IoT Demo</h1></header>
+    <section class="tiles">
+      <div class="tile" id="vitals">
+        <h2>Patient Vitals</h2>
+        <div id="vitals-content">Loading...</div>
+      </div>
+      <div class="tile" id="network">
+        <h2>Network Snapshot</h2>
+        <div id="network-content">Loading...</div>
+      </div>
+      <div class="tile" id="robot">
+        <h2>Robotic Control</h2>
+        <div id="robot-content">
+          <input id="cmd" placeholder="enter command (e.g., cut, suture)" />
+          <button id="send">Send</button>
+          <div id="robot-response"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="diagrams">
+      <h2>Diagrams</h2>
+      <div class="diagram-row">
+        <div><h3>Architecture</h3><img src="/diagrams/architecture.svg" alt="architecture" /></div>
+        <div><h3>Flowchart</h3><img src="/diagrams/flowchart.svg" alt="flowchart" /></div>
+        <div><h3>UML</h3><img src="/diagrams/uml.svg" alt="uml" /></div>
+      </div>
+    </section>
+
+    <footer>Demo • 6G Healthcare IoT</footer>
+  </div>
+  <script src="/static/js/dashboard.js"></script>
+</body>
+</html>
