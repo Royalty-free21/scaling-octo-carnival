@@ -1,5 +1,5 @@
 # scaling-octo-carnival
-# Healthcare IoT on 6G - Demo Package
+# Healthcare IoT on 6G -  Package
 
 Contents:
 - app.py                 : Flask-based working simulation dashboard + API
